@@ -1,4 +1,7 @@
 /*=============COMMON================*/
+html, body {
+    height: 100%;
+}
 body {
     background-color: #fff;
     font-family: Ubuntu, sans-serif;
@@ -35,11 +38,139 @@ h2 {
 #header {
     background: url("../img/6.jpg") no-repeat;
     background-size: cover;
-    height: 100vh;
+    /*height: 100vh;*/
+    min-height: 500px;
+    height: 100%;
 }
-
+#header h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+#header p {
+    color: #fff;
+    font-size: 20px;
+}
+.section-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.section-row {
+    display: table-row;
+}
+.section-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.section-center {
+    max-width: 550px;
+    display: inline-block;
+}
+.btn {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    border: none;
+    color: #fff;
+    transition: background .5s;
+}
+.btn-primary {
+    background-color: #7ea4e8;
+}
+.btn-primary:hover {
+    background-color: #6787c2;
+}
+.btn-default {
+    background-color: #6a7079;
+    transition: background .5s;
+}
+.btn-default:hover {
+    background-color: #474c52;
+    color: #fff;
+}
 /*================END HEADER=============*/
 
+/* ===========================================MAIN PART============================================= */
+
+    /*========SPEAKERS===============*/
+    #speakers {
+        padding: 90px 0;
+        border-bottom: 2px solid #f0f0f1;
+    }
+    #speakers h2 {
+        color: #828689;
+    }
+    .large {
+        color: #828682;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .section-tabs {
+        border: 3px solid #ececec;
+        border-radius: 2px;
+    }
+    .section-tabs .nav-tabs li:not(.active) {
+        background-color: #ececec;
+    }
+    .section-tabs .nav-tabs.nav-justified li a,
+    .section-tabs .nav-tabs.nav-justified li.active a,
+    .section-tabs .nav-tabs.nav-justified li.active a:focus,
+    .section-tabs .nav-tabs.nav-justified li.active a:hover {
+        border-radius: 0;
+        border: none;
+        text-transform: uppercase;
+        font-family: Ubuntu, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        outline: 0;
+    }
+    .nav-tabs li.active a {
+        color: #9097a1;
+    }
+    .nav-tabs li a {
+        color: #abb1ba;
+    }
+    .section-tabs .tab-content {
+        padding: 25px 20px;
+    }
+    .section-tabs .tab-content ul {
+        padding-left: 10px;
+    }
+    .section-tabs .tab-content ul li {
+        line-height: 30px;
+    }
+    .section-tabs .tab-content ul li i {
+        font-size: 15px;
+        color: #2cc7c1;
+        margin-right: 10px;
+    }
+    /*================.speakers-head==================*/
+    .speakers-head {
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    .speakers h2 {
+        color: #6a7079;
+     }
+    .speakers h3 {
+        color: #777a7d;
+        font-size: 20px;
+        text-transform: uppercase;
+     }
+    .speakers-footer {
+        margin-top: 70px;
+
+    }
+    /*=======================================END SPEAKERS=========================================*/
+
+/* ================END MAIN PART================= */
 
 
 
@@ -51,6 +182,7 @@ h2 {
 
 
 
+/*===================MEDIA QUERES==============================*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -65,6 +197,24 @@ h2 {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	
+}
+
+@media only screen and (max-width : 600px) {
+    #header {
+        min-height: 300px;
+    }
+    .section-center {
+        max-width: 320px;
+    }
+    #header h1 {
+        font-size: 20px;
+    }
+    #header p {
+        font-size: 16px;
+    }
+    .section-btn {
+        font-size: 15px;
+    }
 }
 
 /* Extra Small Devices, Phones */

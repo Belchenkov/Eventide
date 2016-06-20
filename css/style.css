@@ -204,6 +204,43 @@ h2 {
     }
     /*=======================================END SPEAKERS=========================================*/
 
+/*=========================================EVENTS==================================================*/
+#events {
+    padding: 90px 0;
+}
+.link {
+    text-transform: uppercase;
+}
+.fa.fa-arrow-circle-down {
+    margin-right: 8px;
+}
+.time {
+    background-color: #2cc7c1;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 6px;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+.collapse-link {
+    color: #747a84;
+    font-size: 18px;
+    font-weight: 500;
+}
+.collapse-link:hover {
+    color: #747a84;
+}
+.collapse-state {
+    color: #2cc7c1;
+}
+.collapse p {
+    color: #999;
+}
+.tab-collapse {
+    margin-bottom: 20px;
+}
+/*=========================================END EVENTS==================================================*/
 /* ================END MAIN PART================= */
 
 

@@ -210,6 +210,7 @@ h2 {
 }
 .link {
     text-transform: uppercase;
+    font-size: 17px;
 }
 .fa.fa-arrow-circle-down {
     margin-right: 8px;
@@ -240,6 +241,12 @@ h2 {
 .tab-collapse {
     margin-bottom: 20px;
 }
+.fa.fa-arrow-circle-right {
+    margin-left: 8px;
+}
+.row-item {
+    margin-top: 100px;
+}
 /*=========================================END EVENTS==================================================*/
 /* ================END MAIN PART================= */
 
@@ -264,8 +271,12 @@ h2 {
 @media only screen and (max-width : 992px) {
     .speakers-head,
     .speakers-footer,
-    #speakers {
+    #speakers,
+    #events {
         margin: 20px 0;
+    }
+    .row-item {
+        margin-top: 20px;
     }
     .row-item-col {
         margin: 20px 0;

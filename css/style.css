@@ -265,6 +265,26 @@ h2 {
     height: 14px;
 }
 /*=========================================END EVENTS==================================================*/
+
+/*=========================================FORM==================================================*/
+#form {
+    padding: 90px 0;
+    background-color: #f3f3f3;
+}
+.section-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 2px;
+    margin-top: 50px;
+}
+.section-form input,
+.section-form select {
+    height: 44px;
+    background-color: #efefef;
+    padding-right: 25px;
+}
+
+/*=========================================END FORM==================================================*/
 /* ================END MAIN PART================= */
 
 

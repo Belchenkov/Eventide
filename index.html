@@ -8,6 +8,7 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,500,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/select2.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 	<link href="css/style.css" rel="stylesheet">
 
@@ -379,7 +380,7 @@
 	</section><!-- / #events-->
 
 	<section id="form">
-		<div class="container">
+		<div class="container text-center">
 			<div class="row">
 				<h2>the most simple way to launch your event</h2>
 				<p class="large">
@@ -390,11 +391,11 @@
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
 					<div class="section-form">
-						<form action="index.php" id="myForm">
+						<form action="index.php" id="myForm" data-toggle="validator">
 							<div class="row">
 								<div class="form-group col-md-3">
 									<input type="text" class="form-control" name="name" placeholder="Jane Doe" required>
-								</div><!-- / .form-group-->
+                                </div><!-- / .form-group-->
 								<div class="form-group col-md-3">
 									<input type="email" class="form-control" name="email" placeholder="Email Address" required>
 								</div><!-- / .form-group-->
@@ -419,4 +420,5 @@
 <!--==============SCRIPTS=======================-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/select2.full.min.js"></script>
 	<script src="js/scripts.js"></script>

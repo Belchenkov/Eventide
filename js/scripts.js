@@ -6,7 +6,6 @@ $(function(){
         $(this).prev().find('.fa').removeClass().addClass('fa fa-plus-circle');
     });// end on()
     $('.form-sel').select2({
-        placeholder: "Select a State",
-        allowClear: true
+             minimumResultsForSearch: Infinity
     });
 });

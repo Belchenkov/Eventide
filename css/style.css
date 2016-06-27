@@ -338,15 +338,48 @@ li.select2-results__option:first-child {
 
 /*=================== end sponsors =========================*/
 
-/* ================END MAIN PART================= */
+/* ================ END MAIN PART ================= */
 
+/*=================== FOOTER ======================*/
+.contacts {
+    background-color: #525b64;
+    padding: 70px 0;
+}
+.contacts h3,
+.contacts h4 {
+    color: #fff;
+    margin: 0 0 25px;
+}
+.contacts h3 span {
+    font-weight: 700;
+}
+.contacts h4 {
+    font-size: 20px;
+}
+.contacts p {
+    color: #cdd0d2;
+}
+.contacts a,
+.contact-data p {
+    font-weight: 500;
+    color: #2cc7c1;
+}
+.contacts .contact-data p i {
+    margin-right: 10px;
+}
+.social img {
+    margin-right: 20px;
+}
+#copyright {
+    background-color: #3f464c;
+    padding: 15px 0;
+}
+#copyright p {
+    color: #cacaca;
+    font-size: 14px;
+}
 
-
-
-
-
-
-
+/*=================== END FOOTER ===================*/
 
 
 
@@ -362,7 +395,8 @@ li.select2-results__option:first-child {
     .speakers-head,
     .speakers-footer,
     #speakers,
-    #events {
+    #events,
+    .contacts {
         margin: 20px 0;
     }
     #sponsors {

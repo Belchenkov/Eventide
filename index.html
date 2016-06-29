@@ -10,6 +10,7 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/select2.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<link href="css/style.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
@@ -48,7 +49,7 @@
 <!--==============MAIN PART==============-->
 	<section id="speakers">
 		<div class="container">
-			<div class="row">
+			<div class="row wow fadeInDownBig">
 				<div class="col-md-6 ">
 					<h2>main goals of the event</h2>
 					<p class="large">
@@ -101,14 +102,15 @@
 				</div><!-- / .col-md-6-->
 			</div><!-- / .row-->
 
-			<div class="row text-center speakers-head">
+<!--============== EVENT SPEAKERS =============================-->
+			<div class="row text-center speakers-head wow zoomInLeft">
 				<h2>event speakers</h2>
 				<p class="large">Sed ut perspiciatis unde omnis iste natus error</p>
 			</div><!-- / .speakers-head-->
 
 			<div class="row speakers text-center">
 				<div class="col-sm-3">
-					<div class="item row-item-col">
+					<div class="item row-item-col wow flipInX">
 						<img src="img/jobs.jpg" alt="Edvard" class="img-circle front-side" data-toggle="modal" data-target="#edward">
 						<span class="back-side"><i class="fa fa-twitter" aria-hidden="true"></i></span>
 						<h3>edward</h3>
@@ -136,7 +138,7 @@
 				</div><!-- / .col-sm-3-->
 
 				<div class="col-sm-3">
-					<div class="item row-item-col">
+					<div class="item row-item-col wow flipInX" data-wow-delay='.5s'>
 						<img src="img/lucy.jpg" alt="lucy" class="img-circle front-side" data-toggle="modal" data-target="#lucy">
 						<span class="back-side"><i class="fa fa-twitter" aria-hidden="true"></i></span>
 						<h3>lucy</h3>
@@ -164,7 +166,7 @@
 				</div><!-- / .col-sm-3-->
 
 				<div class="col-sm-3">
-					<div class="item row-item-col">
+					<div class="item row-item-col wow flipInX" data-wow-delay='1s'>
 						<img src="img/jobs.jpg" alt="nathan" class="img-circle front-side" data-toggle="modal" data-target="#nathan">
 						<span class="back-side"><i class="fa fa-twitter" aria-hidden="true"></i></span>
 						<h3>nathan</h3>
@@ -192,7 +194,7 @@
 				</div><!-- / .col-sm-3-->
 
 				<div class="col-sm-3">
-					<div class="item row-item-col">
+					<div class="item row-item-col wow flipInX" data-wow-delay='1.5s'>
 						<img src="img/jobs.jpg" alt="jacob" class="img-circle front-side" data-toggle="modal" data-target="#jacob">
 						<span class="back-side"><i class="fa fa-twitter" aria-hidden="true"></i></span>
 						<h3>jacob</h3>
@@ -219,7 +221,7 @@
 					</p>
 				</div><!-- / .col-sm-3-->
 			</div><!-- / .speakers-->
-			<div class="row speakers-footer text-center">
+			<div class="row speakers-footer text-center wow zoomInRight">
 				<p class="large">Sed ut perspiciatis unde omnis iste natus error <br> sit voluptatem accusantium doloremque
 					laudantium
 				</p>
@@ -235,7 +237,7 @@
 	<section id="events">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeIn">
 					<h2>event schedule</h2>
 					<p class="large">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
 						doloremque
@@ -248,7 +250,7 @@
 					</p>
 					<a href="#" class="link"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>all schedule (pdf)</a>
 				</div><!-- / .col-md-6-->
-				<div class="col-md-6">
+				<div class="col-md-6 wow fadeIn">
 					<div class="section-tabs">
 						<!-- Nav tabs -->
 						<ul class="nav nav-tabs nav-justified" role="tablist">
@@ -314,7 +316,7 @@
 				</div><!-- / .col-md-6-->
 			</div><!-- / .row-->
 
-			<div class="row row-item">
+			<div class="row row-item wow pulse">
 				<div class="col-md-6 row-item-col">
 					<div class="embed-responsive embed-responsive-16by9">
 						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Y1naqY-WdoQ"></iframe>
@@ -331,7 +333,7 @@
 				</div>
 			</div><!-- / .row-->
 
-			<div class="row row-item">
+			<div class="row row-item wow fadeIn">
 				<div class="col-md-6 row-item-col">
 					<h2>event gallery</h2>
 					<p class="large">
@@ -390,7 +392,7 @@
 
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<div class="section-form">
+					<div class="section-form wow shake">
 						<form action="index.php" id="myForm" data-toggle="validator">
 							<div class="row">
 								<div class="form-group col-md-3">
@@ -435,7 +437,7 @@
 <!--=================FOOTER====================-->
 <section class="contacts">
     <div class="container">
-        <div class="row">
+        <div class="row wow bounceIn">
             <div class="col-md-6 row-item-col">
                 <h3><span>253</span> People Have Signed In Since Juli</h3>
                 <p>Nemo enim ipsam voluptatem quia voluptas sit asprnatur aut odit aut fugit sed quia consequuntur magni dolores eos qui ratione</p>
@@ -474,4 +476,5 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/select2.full.min.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="js/scripts.js"></script>

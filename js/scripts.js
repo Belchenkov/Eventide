@@ -8,4 +8,8 @@ $(function(){
     $('.form-sel').select2({
              minimumResultsForSearch: Infinity
     });
+
+    new WOW({
+        offset: 150
+    }).init();
 });
